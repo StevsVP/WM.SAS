@@ -163,10 +163,13 @@ body.dark-mode {
   color: #eeeeee;
 }
 
+body.dark-mode header,
+body.dark-mode footer {
+  background-color: #1e3a8a;
+}
+
 body.dark-mode a {
   color: #facc15;
 }
-
-/* Aquí podrías copiar un normalize.css adaptado a SCSS o dejar vacío si no lo usarás */
 
 /*# sourceMappingURL=style.css.map */

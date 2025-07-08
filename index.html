@@ -12,17 +12,16 @@
       <div class="logo">
         <img src="css/img/logo_focusX mini.png" alt="Logo Focus X" />
       </div>
-      <button id="toggle-theme" aria-label="Cambiar tema">🌙</button>
       <button id="theme-toggle" aria-label="Alternar modo claro/oscuro">
   🌓
 </button>
 
 
       <ul class="nav-links">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
+  <li><a href="#" class="soon">Inicio</a></li>
+  <li><a href="#" class="soon">Servicios</a></li>
+  <li><a href="#" class="soon">Contacto</a></li>
+</ul>
     </nav>
   </header>
 
@@ -31,8 +30,7 @@
       <h1>Bienvenido a Focus X</h1>
       <p>Una interfaz modular, minimalista y creada con SASS.</p>
       <img src="css/img/codding_Habbo.jpeg" alt="codding_Habbo" />
-
-      <button class="button">Comienza ahora</button>
+      <button class="button soon">Comienza ahora</button>
     </section>
 
     <section class="cards-section">
@@ -48,16 +46,17 @@
   </main>
 
   <footer>
-    <p>&copy; 2025 Focus X - Síguenos en
-      <a href="#">GitHub</a> ·
-      <a href="#">Twitter</a>
-    </p>
-  </footer>
+  <p>&copy; 2025 Focus X - Síguenos en
+    <a href="https://github.com/StevsVP/WM.SAS" target="_blank" rel="noopener">GitHub</a> ·
+    <a href="#" class="soon">Twitter</a>
+  </p>
+</footer>
+
 <script>
-  document.querySelectorAll('a.soon, button.soon').forEach(el => {
+  document.querySelectorAll('.soon').forEach(el => {
     el.addEventListener('click', e => {
       e.preventDefault();
-      alert('Próximamente');
+      alert('🚧 Próximamente');
     });
   });
 </script>

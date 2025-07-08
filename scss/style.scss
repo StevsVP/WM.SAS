@@ -1,7 +1,7 @@
-@use 'abstracts/colors';
-@use 'abstracts/functions';
-@use 'abstracts/mixins';
 @use 'abstracts/variables';
+@use 'abstracts/mixins';
+@use 'abstracts/functions';
+@use 'abstracts/colors';
 
 @use 'base/reset';
 @use 'base/typography';
@@ -13,8 +13,6 @@
 @use 'components/cards';
 
 @use 'pages/home';
+
 @use 'themes/default';
-@use 'themes/dark';
-
-@use 'vendors/normalize';
-
+@use 'themes/dark'; // ✅ ESTA LÍNEA DEBE ESTAR PRESENTE

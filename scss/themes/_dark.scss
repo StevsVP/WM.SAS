@@ -5,6 +5,11 @@ body.dark-mode {
   color: c.$text-dark;
 }
 
+body.dark-mode header,
+body.dark-mode footer {
+  background-color: c.$primary-color;
+}
+
 body.dark-mode a {
   color: c.$accent-color;
 }
