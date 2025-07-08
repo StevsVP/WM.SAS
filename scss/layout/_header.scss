@@ -3,9 +3,31 @@
 
 header {
   background-color: c.$primary-color;
+  color: white;
 
   nav {
     @include m.flex-center;
-    padding: 1rem;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+
+      a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
   }
 }

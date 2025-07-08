@@ -2,27 +2,46 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Proyecto SCSS Modular</title>
-  <link rel="stylesheet" href="../CSS/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Focus X</title>
+  <link rel="stylesheet" href="../css/style.css" />
 </head>
 <body>
   <header>
     <nav>
-      <button class="button">Botón Principal</button>
-      <button class="button button--secondary">Botón Secundario</button>
+      <div class="logo">Focus X</div>
+      <ul class="nav-links">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
     </nav>
   </header>
 
   <main class="home">
-    <section class="card">
-      <h2 class="card__title">Título de la tarjeta</h2>
-      <p class="card__content">Contenido de la tarjeta con un poco de texto para mostrar el diseño.</p>
+    <section class="hero">
+      <h1>Bienvenido a Focus X</h1>
+      <p>Una interfaz modular, minimalista y creada con SASS.</p>
+      <button class="button">Comienza ahora</button>
+    </section>
+
+    <section class="cards-section">
+      <div class="card">
+        <h3 class="card__title">Diseño limpio</h3>
+        <p class="card__content">Mantén tu código y estilo ordenado con una estructura escalable.</p>
+      </div>
+      <div class="card">
+        <h3 class="card__title">100% Modular</h3>
+        <p class="card__content">Trabaja con componentes reutilizables desde el día uno.</p>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>Pie de página con <a href="#">enlaces</a></p>
+    <p>&copy; 2025 Focus X - Síguenos en
+      <a href="#">GitHub</a> ·
+      <a href="#">Twitter</a>
+    </p>
   </footer>
 </body>
 </html>

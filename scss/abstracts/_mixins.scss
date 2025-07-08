@@ -4,3 +4,13 @@
   align-items: center;
   justify-content: center;
 }
+
+@mixin transition($property: all, $duration: 0.3s) {
+  transition: $property $duration ease;
+}
+
+@mixin responsive {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
