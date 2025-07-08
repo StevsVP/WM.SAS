@@ -1,0 +1,10 @@
+@use '../abstracts/colors' as c;
+
+body.dark-mode {
+  background-color: c.$background-dark;
+  color: c.$text-dark;
+}
+
+body.dark-mode a {
+  color: c.$accent-color;
+}

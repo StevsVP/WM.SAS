@@ -1,4 +1,10 @@
+@use '../abstracts/colors' as c;
+
 body {
-  background-color: #ffffff;
-  color: #222222;
+  background-color: c.$background-light;
+  color: c.$text-light;
+}
+
+a {
+  color: c.$primary-color;
 }

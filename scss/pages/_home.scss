@@ -2,17 +2,8 @@
 @use '../abstracts/mixins' as m;
 
 .home {
-  background-color: c.$bg-light;
+  background-color: c.$background-light;
   padding: 2rem;
-  
-.hero img {
-  max-width: 100%;   // No exceda el ancho de su contenedor
-  height: auto;      // Mantener proporción natural
-  display: block;    // Evita espacios extra debajo de la imagen
-  margin: 1rem auto; // Centra la imagen horizontalmente con margen arriba y abajo
-  border-radius: 8px; // Opcional: bordes redondeados para mejor estética
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); // Opcional: sombra suave
-}
 
   .hero {
     text-align: center;
@@ -27,6 +18,15 @@
       font-size: 1.1rem;
       color: c.$text-color;
       margin-bottom: 1rem;
+    }
+
+    img {
+      max-width: 100%;   // No exceda el ancho del contenedor
+      height: auto;      // Mantener proporción
+      display: block;    // Evitar espacios extra
+      margin: 1rem auto; // Centrar horizontalmente
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
   }
 

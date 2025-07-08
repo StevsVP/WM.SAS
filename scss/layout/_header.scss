@@ -20,6 +20,15 @@ header {
   display: block;
 }
 
+#theme-toggle {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: inherit;
+  margin-left: 1rem;
+}
+
 
     .nav-links {
       list-style: none;

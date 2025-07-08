@@ -1,9 +1,12 @@
 @use '../abstracts/colors' as c;
 @use '../abstracts/mixins' as m;
+@use "sass:color";
+
 
 .button {
   padding: 0.75rem 1.5rem;
   background-color: c.$accent-color;
+   transition: background-color 0.3s;
   color: c.$primary-color;
   border: none;
   border-radius: 8px;
@@ -12,6 +15,6 @@
   @include m.transition;
 
   &:hover {
-    background-color: darken(c.$accent-color, 10%);
+    background-color: color.adjust(c.$accent-color, $lightness: -10%);
   }
 }

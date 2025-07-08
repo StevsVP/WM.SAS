@@ -42,6 +42,14 @@ header nav .logo img {
   width: auto;
   display: block;
 }
+header nav #theme-toggle {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: inherit;
+  margin-left: 1rem;
+}
 header nav .nav-links {
   list-style: none;
   display: flex;
@@ -73,6 +81,7 @@ footer a:hover {
 .button {
   padding: 0.75rem 1.5rem;
   background-color: #facc15;
+  transition: background-color 0.3s;
   color: #1e3a8a;
   border: none;
   border-radius: 8px;
@@ -107,14 +116,6 @@ footer a:hover {
   background-color: #f9fafb;
   padding: 2rem;
 }
-.home .hero img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 1rem auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 .home .hero {
   text-align: center;
   margin-bottom: 3rem;
@@ -127,6 +128,14 @@ footer a:hover {
   font-size: 1.1rem;
   color: #1f2937;
   margin-bottom: 1rem;
+}
+.home .hero img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .home .cards-section {
   display: flex;
@@ -141,8 +150,21 @@ footer a:hover {
 }
 
 body {
-  background-color: #ffffff;
-  color: #222222;
+  background-color: #f9fafb;
+  color: #1f2937;
+}
+
+a {
+  color: #1e3a8a;
+}
+
+body.dark-mode {
+  background-color: #111111;
+  color: #eeeeee;
+}
+
+body.dark-mode a {
+  color: #facc15;
 }
 
 /* Aquí podrías copiar un normalize.css adaptado a SCSS o dejar vacío si no lo usarás */

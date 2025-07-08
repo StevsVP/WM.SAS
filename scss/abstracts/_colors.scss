@@ -1,8 +1,14 @@
+// Colores primarios
 $primary-color: #1e3a8a;      // azul oscuro elegante
 $secondary-color: #60a5fa;    // azul claro
 $accent-color: #facc15;       // amarillo para llamar la atención
 
-$bg-light: #f9fafb;           // fondo claro
-$bg-dark: #111827;            // fondo oscuro si usas un tema oscuro
-$text-color: #1f2937;         // gris oscuro para texto principal
-$dark-color: #1f2937;
+// Colores para modo claro
+$background-light: #f9fafb;   // fondo claro
+$text-light: #1f2937;         // gris oscuro para texto principal
+
+// Colores para modo oscuro
+$background-dark: #111111;    // fondo oscuro
+$text-dark: #eeeeee;          // texto claro para modo oscuro
+
+$text-color: #1f2937; // por ejemplo, gris oscuro para texto
