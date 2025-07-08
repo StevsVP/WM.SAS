@@ -1,0 +1,11 @@
+@use '../abstracts/colors' as c;
+@use '../abstracts/mixins' as m;
+
+header {
+  background-color: c.$primary-color;
+
+  nav {
+    @include m.flex-center;
+    padding: 1rem;
+  }
+}

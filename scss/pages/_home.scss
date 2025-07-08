@@ -1,0 +1,7 @@
+@use '../abstracts/colors' as c;
+
+.home {
+  background-color: c.$primary-color;
+  padding: 2rem;
+  color: white;
+}
