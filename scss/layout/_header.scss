@@ -14,6 +14,12 @@ header {
       font-size: 1.5rem;
       font-weight: bold;
     }
+    .logo img {
+  max-height: 50px;  // Altura máxima cómoda para el header
+  width: auto;       // Mantiene la proporción natural
+  display: block;
+}
+
 
     .nav-links {
       list-style: none;

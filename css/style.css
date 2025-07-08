@@ -37,6 +37,11 @@ header nav .logo {
   font-size: 1.5rem;
   font-weight: bold;
 }
+header nav .logo img {
+  max-height: 50px;
+  width: auto;
+  display: block;
+}
 header nav .nav-links {
   list-style: none;
   display: flex;
@@ -101,6 +106,14 @@ footer a:hover {
 .home {
   background-color: #f9fafb;
   padding: 2rem;
+}
+.home .hero img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .home .hero {
   text-align: center;

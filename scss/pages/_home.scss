@@ -4,6 +4,15 @@
 .home {
   background-color: c.$bg-light;
   padding: 2rem;
+  
+.hero img {
+  max-width: 100%;   // No exceda el ancho de su contenedor
+  height: auto;      // Mantener proporción natural
+  display: block;    // Evita espacios extra debajo de la imagen
+  margin: 1rem auto; // Centra la imagen horizontalmente con margen arriba y abajo
+  border-radius: 8px; // Opcional: bordes redondeados para mejor estética
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); // Opcional: sombra suave
+}
 
   .hero {
     text-align: center;

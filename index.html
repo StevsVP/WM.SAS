@@ -9,7 +9,9 @@
 <body>
   <header>
     <nav>
-      <div class="logo">Focus X</div>
+      <div class="logo">
+        <img src="css/img/logo_focusX mini.png" alt="Logo Focus X" />
+      </div>
       <ul class="nav-links">
         <li><a href="#">Inicio</a></li>
         <li><a href="#">Servicios</a></li>
@@ -22,6 +24,8 @@
     <section class="hero">
       <h1>Bienvenido a Focus X</h1>
       <p>Una interfaz modular, minimalista y creada con SASS.</p>
+      <img src="css/img/codding_Habbo.jpeg" alt="codding_Habbo" />
+
       <button class="button">Comienza ahora</button>
     </section>
 
@@ -43,5 +47,13 @@
       <a href="#">Twitter</a>
     </p>
   </footer>
+  <script>
+  document.querySelectorAll('a, button').forEach(el => {
+    el.addEventListener('click', e => {
+      e.preventDefault();
+      alert('Próximamente');
+    });
+  });
+</script>
 </body>
 </html>
